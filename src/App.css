@@ -1,0 +1,62 @@
+
+
+.App{
+    font-family: Lato, sans-serif;
+    background-color: #340f74;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.container-logo{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-calculator{
+    height: 300px;
+}
+
+.container-calculator{
+    width: 400px;
+    height: 600px;
+    padding: 14px;
+    background-color: #79addc;
+    border-radius: 20px;
+    border: 5px solid white;
+
+}
+
+.file{
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4em; /* Tamaño grande para destacar */
+    font-weight: bold; /* Negrita para dar fuerza a las letras */
+    background: linear-gradient(90deg, #ff6ec4, #7873f5); /* Degradado de colores brillantes */
+    -webkit-background-clip: text; /* Para que el color de fondo recorte solo el texto */
+    -webkit-text-fill-color: transparent; /* Hace el fondo visible pero rellena el texto con transparencia */
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8); /* Agrega un brillo alrededor del texto */
+    animation: vibrate 0.1s infinite; /* Efecto vibrante continuo */
+  }
+  
+  @keyframes vibrate {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(1px, -1px); }
+    50% { transform: translate(-1px, 1px); }
+    75% { transform: translate(1px, 1px); }
+    100% { transform: translate(-1px, -1px); }
+  }
+  
+
+
+
